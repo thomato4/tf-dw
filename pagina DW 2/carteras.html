@@ -1,0 +1,94 @@
+!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Zapato - Maria paula bazan</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    
+    <div class="logo">Maria<span class="blue">paula</span>bazan✂️</div>
+    <nav>
+      <a href="index.html">INICIO</a>
+      <a href="telas.html">TELAS</a>
+      <a href="vestido.html">VESTIDOS</a>
+      <a href="trajes.html">TRAJES</a>
+      <a href="productos.html">ZAPATOS</a>
+         <a href="carrito.html">🛒</a>
+    </nav>
+  </header>
+
+ <main>
+       <script>
+  function agregarAlCarrito(nombre, precio) {
+    let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+    carrito.push({ nombre, precio });
+    localStorage.setItem("carrito", JSON.stringify(carrito));
+    alert(nombre + " agregado al carrito");
+  }
+</script>
+    
+    <section id="cartera">
+      <h2>CARTERAS</h2>
+      <div class="galeria">
+        <div class="producto">
+          <img src="carteras1.webp" alt="cartera 1">
+          <h3>cartera negra</h3>
+          <p>$40.000</p>
+          <button onclick="agregarAlCarrito('cartera negra', 40000)">Agregar al carrito</button>
+        
+      
+    
+   
+      <div class="galeria">
+        <div class="producto">
+          <img src="carteras2.webp" alt=" cartera 2">
+          <h3>cartera beige</h3>
+          <p>$20.000</p>
+          <button onclick="agregarAlCarrito('cartera beige', 20000)">Agregar al carrito</button>
+      
+    
+    
+   
+    
+    
+      <div class="galeria">
+        <div class="producto">
+          <img src="carteras3.webp" alt="cartera 3">
+          <h3>cartera celeste </h3>
+          <p>$10.000</p>
+          <button onclick="agregarAlCarrito('cartera celeste', 10000)">Agregar al carrito</button>
+            
+   
+      
+      <div class="galeria">
+        <div class="producto">
+          <img src="carteras4.webp" alt="cartera 4">
+          <h3>cartera rosa</h3>
+          <p>$1.000</p>
+        <button onclick="agregarAlCarrito('cartera rosa', 40000)">Agregar al carrito</button>
+
+     
+      <div class="galeria">
+        <div class="producto">
+          <img src="carteras5.webp" alt="cartera 5">
+          <h3>cartera roja</h3>
+          <p>$1.000</p>
+         <button onclick="agregarAlCarrito('cartera roja', 40000)">Agregar al carrito</button>
+      </div>
+    </section>
+    </section>
+</main>
+
+  <footer>
+    <p>📞 WhatsApp: +54 9 2657 31-6434</p>
+    <a href="https://www.instagram.com" target="_blank">
+      <img src="instagram2.webp" width="25"> Instagram
+    </a>
+    <p>© 2025 María Paula Bazán</p>
+  </footer>
+
+</body>
+</html>

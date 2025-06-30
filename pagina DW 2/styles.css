@@ -1,0 +1,169 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #111;
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 50px;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff00b3;
+}
+
+.logo .blue {
+    color: #ff00b3;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+main {
+    padding: 70px 20px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #444;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+footer {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+footer a {
+  color: #ff1493; /* rosa fuerte */
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #fff;
+}
+
+header {
+  background-color: #ffc0cb;
+  text-align: center;
+  padding: 15px;
+}
+
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  color: #d63384;
+  text-align: center;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.producto {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 180px;
+  text-align: center;
+}
+
+.producto img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #fff;
+}
+
+header {
+  background-color: #ffc0cb;
+  text-align: center;
+  padding: 15px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  color: #d63384;
+  text-align: center;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.producto {
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 180px;
+  text-align: center;
+}
+
+.producto img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}

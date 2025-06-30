@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Zapato - Maria paula bazan</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    
+    <div class="logo">Maria<span class="blue">paula</span>bazan✂️</div>
+    <nav>
+      <a href="index.html">INICIO</a>
+      <a href="telas.html">TELAS</a>
+      <a href="vestido.html">VESTIDOS</a>
+      <a href="trajes.html">TRAJES</a>
+      <a href="carteras.html">CARTERAS</a>
+       <a href="carrito.html">🛒</a>
+    </nav>
+  </header>
+
+ <main>
+    <script>
+  function agregarAlCarrito(nombre, precio) {
+    let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+    carrito.push({ nombre, precio });
+    localStorage.setItem("carrito", JSON.stringify(carrito));
+    alert(nombre + " agregado al carrito");
+  }
+</script>
+    
+    <section id="zapatos">
+      <h2>ZAPATOS PAARA HOMBRE Y MUJERES</h2>
+      <div class="galeria">
+        <div class="producto">
+          <img src="zapatos.webp" alt="zapatos 1">
+          <h3>Zapatos de hombre negra</h3>
+         
+          <p>$100.000</p>
+          <button onclick="agregarAlCarrito('Zapatos de hombre negra', 100000)">Agregar al carrito</button>
+        
+      
+    
+    <section id="zapatos">
+      <div class="galeria">
+        <div class="producto">
+          <img src="zapatos2.webp" alt="zapatos 2">
+          <h3>Zapatos de hombre marron</h3>
+          <p>$150.000</p>
+        
+         <button onclick="agregarAlCarrito('Zapatos de hombre marron', 150000)">Agregar al carrito</button>
+      
+    
+    
+   
+    
+    
+      <div class="galeria">
+        <div class="producto">
+          <img src="zapatos3.webp" alt="zapatos 3">
+          <h3>Zapatos de mujer celeste</h3>
+          <p>$120.000</p>
+          
+        <button onclick="agregarAlCarrito('Zapatos de mujer celeste', 120000)">Agregar al carrito</button>
+            
+   
+      
+      <div class="galeria">
+        <div class="producto">
+          <img src="zapato4.webp" alt="zapatos 4">
+          <h3>zapatos de mujer gris</h3>
+          <p>$50.000</p>
+        
+         <button onclick="agregarAlCarrito('Zapatos de mujer gris', 50000)">Agregar al carrito</button>
+
+     
+      <div class="galeria">
+        <div class="producto">
+          <img src="zapatos5.webp" alt="zapatos 5">
+          <h3>Zapatos de hombre negra</h3>
+          <p>$40.000</p>
+          <button onclick="agregarAlCarrito('Zapatos de hombre negra', 40000)">Agregar al carrito</button>
+      </div>
+    </section>
+    </section>
+</main>
+
+  <footer>
+    <p>📞 WhatsApp: +54 9 2657 31-6434</p>
+    <a href="https://www.instagram.com" target="_blank">
+      <img src="instagram2.webp" width="25"> Instagram
+    </a>
+    <p>© 2025 María Paula Bazán</p>
+  </footer>
+
+</body>
+</html>

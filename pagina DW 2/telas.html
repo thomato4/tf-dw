@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Telas- Maria paula bazan</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    
+    <div class="logo">Maria<span class="blue">paula</span>bazan✂️</div>
+    <nav>
+      <a href="index.html">INICIO</a>
+      <a href="productos.html">ZAPATOS</a>
+      <a href="vestido.html">VESTIDOS</a>
+       <a href="trajes.html">TRAJES/ESMOQUIN</a>
+       <a href="carteras.html">CARTERAS</a>
+       <a href="carrito.html">🛒</a>
+    </nav>
+  </header>
+
+ <main>
+    <script>
+  function agregarAlCarrito(nombre, precio) {
+    let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+    carrito.push({ nombre, precio });
+    localStorage.setItem("carrito", JSON.stringify(carrito));
+    alert(nombre + " agregado al carrito");
+  }
+</script>
+    
+    
+    <section id="telas">
+      <h2>Telas</h2>
+      <div class="galeria">
+        <div class="producto">
+          <img src="tela1.webp" alt="Tela 1">
+          <h3>Tela azul</h3>
+          <p>$5.000</p>
+        <button onclick="agregarAlCarrito('Zapatos de hombre marron', 5000)">Agregar al carrito</button>
+      
+    
+  
+      <div class="galeria">
+        <div class="producto">
+          <img src="tela2.webp" alt="Tela 2">
+          <h3>Tela blanca</h3>
+         
+          <p>$30.000</p>
+        <button onclick="agregarAlCarrito('Zapatos de hombre marron', 30000)">Agregar al carrito</button>
+        
+      
+    
+    
+   
+    <section id="telas">
+      
+      <div class="galeria">
+        <div class="producto">
+          <img src="tela3.webp" alt="Tela 3">
+          <h3>Tela negra</h3>
+          <p>$13.000</p>
+          <button onclick="agregarAlCarrito('Tela negra', 13000)">Agregar al carrito</button>
+        
+            
+    <section id="telas">
+      <div class="galeria">
+        <div class="producto">
+          <img src="tela4.webp" alt="Tela 4">
+          <h3>Tela rosa</h3>
+          <p>$15.000</p>
+          <button onclick="agregarAlCarrito('Zapatos de hombre marron', 15000)">Agregar al carrito</button>
+          <section id="telas">
+
+      <div class="galeria">
+        <div class="producto">
+          <img src="tela5.webp" alt="Tela 5">
+          <h3>Tela gris</h3>
+          <p>$20.000</p>
+          <button onclick="agregarAlCarrito('Zapatos de hombre marron', 20000)">Agregar al carrito</button>
+      </div>
+    </section>
+    
+</main>
+
+  <footer>
+    <p>📞 WhatsApp: +54 9 2657 31-6434</p>
+    <a href="https://www.instagram.com" target="_blank">
+      <img src="instagram2.webp" width="25"> Instagram
+    </a>
+    <p>© 2025 María Paula Bazán</p>
+  </footer>
+
+</body>
+</html>

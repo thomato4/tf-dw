@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Zapato - Maria paula bazan</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    
+    <div class="logo">Maria<span class="blue">paula</span>bazan✂️</div>
+    <nav>
+      <a href="index.html">INICIO</a>
+      <a href="telas.html">TELAS</a>
+      <a href="vestido.html">VESTIDOS</a>
+      <a href="productos.html">ZAPATOS</a>
+      <a href="carteras.html">CARTERAS</a>
+        <a href="carrito.html">🛒</a>
+    </nav>
+  </header>
+
+ <main>
+      <script>
+  function agregarAlCarrito(nombre, precio) {
+    let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+    carrito.push({ nombre, precio });
+    localStorage.setItem("carrito", JSON.stringify(carrito));
+    alert(nombre + " agregado al carrito");
+  }
+</script>
+    
+    
+    <section id="trajes">
+      <h2>TRAJES DE HOMBRES</h2>
+      <div class="galeria">
+        <div class="producto">
+          <img src="traje1.webp" alt="trajes 1">
+          <h3>Traje de hombre negro al cuerpo</h3>
+         
+          <p>$100.000</p>
+          
+         <button onclick="agregarAlCarrito('Traje de hombre negro al cuerpo', 100000)">Agregar al carrito</button>
+      
+    
+    
+      <div class="galeria">
+        <div class="producto">
+          <img src="traje2.webp" alt="trajes 2">
+          <h3>Traje de hombre azul al cuerpo</h3>
+          <p>$150.000</p>
+          
+         <button onclick="agregarAlCarrito('Traje de hombre azul al cuerpo', 150000)">Agregar al carrito</button>
+      
+    
+    
+   
+    
+    
+      <div class="galeria">
+        <div class="producto">
+          <img src="trajes3.webp" alt="trajes 3">
+          <h3>Traje de hombre gris</h3>
+          <p>$40.000</p>
+           <button onclick="agregarAlCarrito('Traje de hombre gris', 40000)">Agregar al carrito</button>
+        
+            
+   
+      
+      <div class="galeria">
+        <div class="producto">
+          <img src="traje4.webp" alt="trajes 4">
+          <h3>Traje de hombre blanco</h3>
+          <p>$34.000</p>
+           <button onclick="agregarAlCarrito('Traje de hombre blanco', 34000)">Agregar al carrito</button>
+         
+
+     
+      <div class="galeria">
+        <div class="producto">
+          <img src="traje5.webp" alt="trajes 5">
+          <h3>Traje de hombre celeste</h3>
+          <p>$50.000</p>
+           <button onclick="agregarAlCarrito('Traje de hombre celeste', 50000)">Agregar al carrito</button>
+         
+      </div>
+    </section>
+    </section>
+</main>
+
+  <footer>
+    <p>📞 WhatsApp: +54 9 2657 31-6434</p>
+    <a href="https://www.instagram.com" target="_blank">
+      <img src="instagram2.webp" width="25"> Instagram
+    </a>
+    <p>© 2025 María Paula Bazán</p>
+  </footer>
+
+</body>
+</html>
